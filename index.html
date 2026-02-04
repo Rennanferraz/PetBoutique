@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PetBoutique | o melhor para seu pet!</title>
+    <meta name="description"
+        content="Descubra na Pet Boutique o melhor para seu pet! Produtos e serviços de alta qualidade para garantir o bem-estar do seu amigo de quatro patas.">
+    <meta name="keywords" content="pet boutique, produtos para pets, serviços para pets, bem estar animal">
+    <meta name="author" content="PlaneSolution - Design & Web">
+    <meta name="robots" content="index, follow">
+
+    <!-- Ícone da aba -->
+    <link rel="icon" href="assets/img/logo_patas.png" type="image/png">
+
+    <!-- Bootstrap CSS e ícones -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Fontes Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:wght@400;600&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS do projeto -->
+    <link rel="stylesheet" href="assets/css/estilo.css">
+
+
+</head>
+
+<body>
+    <!-- NAV -->
+    <nav class="navbar navbar-expand-lg navbar-light pet-nav fixed-top">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center gap-2" href="#topo" aria-label="Ir para o topo">
+                <img src="assets/img/logo_patas.png" alt="Logo PetBoutique" width="34" height="34">
+                <span class="brand-name">PetBoutique</span>
+            </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Abrir menu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+                    <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#parceiros">Parceiros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#localizacao">Onde estamos</a></li>
+                    <li class="nav-item ms-lg-2">
+                        <a class="btn btn-sm btn-cta-nav" href="https://wa.me/5521999999991/?text=Olá%20PetBoutique!"
+                            target="_blank" rel="noopener">
+                            Fale conosco <i class="bi bi-chat-dots ms-1"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- HERO -->
+    <header id="topo" class="hero-section d-flex align-items-center">
+        <div class="container">
+            <div class="row align-items-center g-4">
+                <div class="col-lg-6">
+                    <p class="hero-pill mb-3">
+                        <i class="bi bi-stars me-2"></i> Cuidado premium para cães e gatos
+                    </p>
+
+                    <h1 class="hero-title mb-3">
+                        Estilo, bem-estar e carinho — tudo em um só lugar.
+                    </h1>
+
+                    <p class="hero-subtitle mb-4">
+                        Banho & tosa, vet 24h, creche e produtos selecionados.
+                        A experiência que seu pet merece, com a praticidade que você precisa.
+                    </p>
+
+                    <div class="d-flex flex-wrap gap-2">
+                        <a href="https://wa.me/5521999999991/?text=Olá%20PetBoutique!" target="_blank" rel="noopener"
+                            class="btn-cta">
+                            Chamar no WhatsApp
+                            <img src="assets/img/redesocial_whatsapp.png" alt="WhatsApp" width="22" class="ms-2">
+                        </a>
+
+                        <a href="#servicos" class="btn btn-outline-dark btn-hero-outline">
+                            Ver serviços <i class="bi bi-arrow-down ms-1"></i>
+                        </a>
+                    </div>
+
+                    <div class="hero-trust mt-4">
+                        <div class="trust-item">
+                            <i class="bi bi-shield-check"></i>
+                            <span>Profissionais parceiros</span>
+                        </div>
+                        <div class="trust-item">
+                            <i class="bi bi-clock"></i>
+                            <span>Atendimento ágil</span>
+                        </div>
+                        <div class="trust-item">
+                            <i class="bi bi-heart"></i>
+                            <span>Amor em cada detalhe</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-6">
+                    <div class="hero-card">
+                        <div class="hero-card-top">
+                            <span class="badge-soft">Destaque</span>
+                            <span class="text-muted small">Agenda rápida</span>
+                        </div>
+
+                        <h2 class="h5 mb-3">Seu pet pronto para brilhar ✨</h2>
+
+                        <ul class="hero-mini-list">
+                            <li><i class="bi bi-check2-circle"></i> Banho + hidratação</li>
+                            <li><i class="bi bi-check2-circle"></i> Tosa higiênica</li>
+                            <li><i class="bi bi-check2-circle"></i> Produtos premium</li>
+                        </ul>
+
+                        <a class="btn btn-sm btn-cta-secondary mt-2" href="#contato">
+                            Quero orçamento <i class="bi bi-arrow-right ms-1"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- SERVIÇOS -->
+    <section class="py-5 bg-light" id="servicos">
+        <div class="container py-2">
+            <div class="section-head text-center mb-4">
+                <h3 class="section-title mb-2">Serviços para facilitar sua rotina</h3>
+                <p class="text-muted m-0">Arraste para o lado e veja os destaques</p>
+            </div>
+
+            <!-- carrossel horizontal -->
+            <div class="services-rail" aria-label="Carrossel de serviços">
+
+                <article class="service-card">
+                    <div class="service-media">
+                        <img src="assets/img/servico_banho.png" alt="Banho e Tosa">
+                    </div>
+                    <div class="service-body">
+                        <h4 class="service-title">Banho & Tosa</h4>
+                        <p class="service-text">Hidratação, tosa higiênica e acabamento com carinho.</p>
+                        <span class="service-tag">Mais pedido</span>
+                    </div>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-media">
+                        <img src="assets/img/servico_veterinario.png" alt="Veterinários">
+                    </div>
+                    <div class="service-body">
+                        <h4 class="service-title">Veterinário 24h</h4>
+                        <p class="service-text">Consultas, exames e vacinas com parceiros especializados.</p>
+                        <span class="service-tag">Segurança</span>
+                    </div>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-media">
+                        <img src="assets/img/servico_dog-walker.png" alt="Passeio">
+                    </div>
+                    <div class="service-body">
+                        <h4 class="service-title">Dog Walker</h4>
+                        <p class="service-text">Passeios, estímulos e comandos básicos com responsabilidade.</p>
+                        <span class="service-tag">Energia</span>
+                    </div>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-media">
+                        <img src="assets/img/servico_creche.png" alt="Creche">
+                    </div>
+                    <div class="service-body">
+                        <h4 class="service-title">Creche Pet</h4>
+                        <p class="service-text">Brincadeiras e cuidados enquanto você trabalha tranquilo(a).</p>
+                        <span class="service-tag">Socialização</span>
+                    </div>
+                </article>
+
+                <article class="service-card">
+                    <div class="service-media">
+                        <img src="assets/img/servico_loja.png" alt="Loja">
+                    </div>
+                    <div class="service-body">
+                        <h4 class="service-title">Loja Premium</h4>
+                        <p class="service-text">Rações, brinquedos e acessórios escolhidos a dedo.</p>
+                        <span class="service-tag">Seleção</span>
+                    </div>
+                </article>
+
+            </div>
+
+    </section>
+
+    <!-- FAIXA -->
+    <section class="faixa py-5 text-center text-white">
+        <div class="container">
+            <p class="fs-2 mb-4">Aqui na <span class="destaque text-white">PetBoutique</span> somos apaixonados pelo que
+                fazemos</p>
+            <div class="social-links d-flex justify-content-center gap-4">
+                <a href="https://www.facebook.com/" target="_blank" rel="noopener"><img
+                        src="assets/img/redesocial_facebook.png" alt="Facebook" width="48"></a>
+                <a href="https://www.instagram.com/" target="_blank" rel="noopener"><img
+                        src="assets/img/redesocial_instagram.png" alt="Instagram" width="48"></a>
+                <a href="https://wa.me/5521999999991/?text=Olá%20PetBoutique!" target="_blank" rel="noopener"><img
+                        src="assets/img/redesocial_whatsapp.png" alt="Whatsapp" width="48"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- PARCEIROS -->
+    <section class="py-5 bg-white" id="parceiros">
+        <div class="container">
+            <div class="section-head text-center mb-5">
+                <h3 class="section-title mb-2">Nossas principais marcas</h3>
+                <p class="text-muted m-0">Trabalhamos com parceiros que prezam por qualidade</p>
+            </div>
+
+            <div class="row row-cols-2 row-cols-md-4 g-4 align-items-center">
+                <div class="col text-center"><img src="assets/img/parceiro_alfapet.png" class="brand-logo"
+                        alt="Alfa Pet"></div>
+                <div class="col text-center"><img src="assets/img/parceiro_bichinho-chic.png" class="brand-logo"
+                        alt="Bichinho Chic"></div>
+                <div class="col text-center"><img src="assets/img/parceiro_boehringer.png" class="brand-logo"
+                        alt="Boehringer"></div>
+                <div class="col text-center"><img src="assets/img/parceiro_inataa.png" class="brand-logo" alt="Inataa">
+                </div>
+                <div class="col text-center"><img src="assets/img/parceiro_biofresh.png" class="brand-logo"
+                        alt="Biofresh"></div>
+                <div class="col text-center"><img src="assets/img/parceiro_bravecto.png" class="brand-logo"
+                        alt="Bravecto"></div>
+                <div class="col text-center"><img src="assets/img/parceiro_nexgard-spectra.png" class="brand-logo"
+                        alt="Nexgard Spectra"></div>
+                <div class="col text-center"><img src="assets/img/parceiro_pickorruchos.png" class="brand-logo"
+                        alt="Pickorruchos"></div>
+                <div class="col text-center"><img src="assets/img/parceiro_papapets.png" class="brand-logo"
+                        alt="Papa Pets"></div>
+                <div class="col text-center"><img src="assets/img/parceiro_royalcanini.png" class="brand-logo"
+                        alt="Royal Canini"></div>
+                <div class="col text-center"><img src="assets/img/parceiro_saopet.png" class="brand-logo" alt="São Pet">
+                </div>
+                <div class="col text-center"><img src="assets/img/parceiro_exopets.png" class="brand-logo"
+                        alt="ExoPets"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ONDE ESTAMOS -->
+    <section class="py-5 bg-light text-center" id="localizacao">
+        <div class="container">
+            <h3 class="section-title">Onde estamos</h3>
+            <p class="mb-4 text-muted fs-5">Vem conhecer a PetBoutique e garantir o melhor para seu pet</p>
+
+            <div class="ratio ratio-21x9 rounded-4 shadow-sm overflow-hidden mx-auto" style="max-width: 960px;">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3673.330385583485!2d-43.37024282476088!3d-22.97487534030784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9bd9546e1b27cf%3A0xa5bce0c3664d085c!2sRua%20Victor%20Civita%2C%2066%20-%20Jacarepagu%C3%A1%2C%20Rio%20de%20Janeiro%20-%20RJ%2C%2022775-044!5e0!3m2!1spt-BR!2sbr!4v1702560317986!5m2!1spt-BR!2sbr"
+                    loading="lazy" title="Mapa PetBoutique">
+                </iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER COMPLETO -->
+    <footer class="rodape" id="contato">
+        <div class="container py-5">
+            <div class="row g-4 align-items-start">
+                <div class="col-lg-4">
+                    <div class="d-flex align-items-center gap-2 mb-2">
+                        <img src="assets/img/logo_patas_pb.png" alt="Logo PetBoutique" width="34" height="34">
+                        <span class="brand-name brand-name-footer">PetBoutique</span>
+                    </div>
+                    <p class="m-0 text-white-50">
+                        Boutique pet com serviços e produtos premium — com carinho, segurança e praticidade.
+                    </p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h4 class="footer-title">Endereço</h4>
+                    <p class="m-0 text-white-50">
+                        Rua Victor Civita, 66 — Jacarepaguá<br>
+                        Rio de Janeiro — RJ
+                    </p>
+                    <p class="mt-2 mb-0 text-white-50">
+                        <i class="bi bi-whatsapp me-1"></i> (21) 99999-9991
+                    </p>
+                </div>
+
+                <div class="col-lg-4">
+                    <h4 class="footer-title">Redes</h4>
+                    <div class="footer-social d-flex gap-3">
+                        <a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">
+                            <img src="assets/img/redesocial_instagram.png" alt="Instagram" width="40">
+                        </a>
+                        <a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Facebook">
+                            <img src="assets/img/redesocial_facebook.png" alt="Facebook" width="40">
+                        </a>
+                        <a href="https://wa.me/5521999999991/?text=Olá%20PetBoutique!" target="_blank" rel="noopener"
+                            aria-label="WhatsApp">
+                            <img src="assets/img/redesocial_whatsapp.png" alt="WhatsApp" width="40">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- LINHA DE ASSINATURA -->
+        <div class="footer-bottom">
+            <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center gap-2 py-3">
+                <span>© 2026 PetBoutique. Todos os direitos reservados.</span>
+                <span>Desenvolvido por <strong>PlaneSolution | Design & Web</strong></span>
+            </div>
+        </div>
+    </footer>
+
+
+
+    <!-- Botão flutuante WhatsApp -->
+    <a class="float-whatsapp" href="https://wa.me/5521999999991/?text=Olá%20PetBoutique!" target="_blank" rel="noopener"
+        aria-label="Falar no WhatsApp">
+        <i class="bi bi-whatsapp"></i>
+    </a>
+
+    <!-- Voltar ao topo -->
+    <button class="back-to-top" id="backToTop" type="button" aria-label="Voltar ao topo">
+        <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- Bootstrap JS Bundle com Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- JS do projeto -->
+    <script src="assets/js/scripts.js"></script>
+</body>
+
+</html>

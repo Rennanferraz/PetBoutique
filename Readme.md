@@ -3,7 +3,7 @@
 Site institucional fictício desenvolvido para portfólio, simulando uma boutique pet com serviços premium.
 
 ## ✨ Demonstração
-🔗 GitHub Pages: https://SEU_USUARIO.github.io/petboutique-site/
+🔗 GitHub Pages: [https://SEU_USUARIO.github.io/petboutique-site/](https://github.com/Rennanferraz/PetBoutique)
 
 ## 🛠️ Tecnologias utilizadas
 - HTML5

@@ -1,29 +1,54 @@
-# 🐾 PetBoutique
+# PetBoutique
 
-Site institucional fictício desenvolvido para portfólio, simulando uma boutique pet com serviços premium.
+Projeto de site institucional fictício para um Pet Shop, desenvolvido como parte da **Missão 1 da carreira Full Stack da DevMedia**: Crie sites com HTML e CSS | 1ª Missão | Construa um site para Pet Shop
 
-## ✨ Demonstração
-🔗 GitHub Pages: [Clique Aqui](https://github.com/Rennanferraz/PetBoutique)
+Este projeto foi **refeito intencionalmente após a conclusão das trilhas de HTML e CSS**, com o objetivo de transformar exercícios de aprendizado em **projetos de portfólio**, aplicando ferramentas, organização e decisões mais próximas da realidade profissional.
 
-## 🛠️ Tecnologias utilizadas
-- HTML5
-- CSS3 (Flexbox, variáveis CSS, responsividade)
-- JavaScript (interações e comportamento)
-- Bootstrap 5
-- Bootstrap Icons
-- Google Fonts
+## Projeto em produção
 
-## 📌 Funcionalidades
-- Navbar fixa com animações no desktop
-- Menu mobile interativo (fecha automaticamente ao clicar)
-- Botão flutuante do WhatsApp
-- Botão “voltar ao topo” após rolagem
-- Seção de serviços em carrossel horizontal
-- Layout totalmente responsivo
-- Scroll suave entre seções
+O site está publicado via GitHub Pages e pode ser acessado em:
 
-## 📂 Estrutura do projeto
-petboutique/
+**https://rennanferraz.github.io/PetBoutique/**
+
+## Contexto do projeto
+
+Durante a formação, o foco foi aprender os fundamentos.  
+Agora, o foco é **aplicar esses fundamentos como um desenvolvedor faria no dia a dia**.
+
+Por isso, este projeto:
+- utiliza frameworks e bibliotecas comuns no mercado
+- segue uma estrutura de pastas mais próxima de projetos reais
+- prioriza organização, responsividade e experiência do usuário
+- foi versionado com Git e publicado via GitHub Pages
+
+
+
+## Tecnologias utilizadas
+
+- HTML5  
+- CSS3 (Flexbox, variáveis CSS e responsividade)  
+- JavaScript (interações e comportamento da interface)  
+- Bootstrap 5  
+- Bootstrap Icons  
+- Google Fonts  
+
+
+
+## Funcionalidades implementadas
+
+- Navbar fixa com comportamento adaptado para desktop e mobile  
+- Menu mobile interativo, com fechamento automático ao clicar  
+- Botão flutuante de WhatsApp  
+- Botão “voltar ao topo” exibido após rolagem  
+- Seção de serviços com carrossel horizontal  
+- Layout totalmente responsivo  
+- Navegação com rolagem suave entre seções  
+
+
+
+## Estrutura do projeto
+```text
+PetBoutique/
 ├── index.html
 ├── README.md
 ├── .gitignore
@@ -33,13 +58,18 @@ petboutique/
     ├── js/
     │   └── scripts.js
     └── img/
-        ├── logo_patas.png
-        ├── banner-topo.jpg
-        └── ...
+        └── imagens do projeto
+```
 
-## 🚀 Como executar o projeto
-Basta abrir o arquivo `index.html` em qualquer navegador moderno.
+## Considerações finais
 
-## 👨‍💻 Autor
-Desenvolvido por **PlaneSolution | Design & Web**  
-Projeto criado para fins de estudo e portfólio.
+Este projeto representa uma **evolução consciente**:  
+o mesmo desafio proposto no início da formação, agora resolvido com outra maturidade técnica, melhores decisões de layout, organização de código e uso de ferramentas mais alinhadas ao mercado.
+
+---
+
+## Autor
+
+**Rennan Ferraz**  
+*Empresa:* **PlaneSolution | Design & Web**  
+Projeto desenvolvido para fins de estudo e portfólio. 
